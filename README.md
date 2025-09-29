@@ -1,1 +1,1 @@
-# mahnoorsheikh16-Explainable-Fake-News-Detection-and-Personalized-Credible-Recommendation-via-GraphML
+# Explainable Fake News Detection and Personalized Credible Recommendation via GraphML
