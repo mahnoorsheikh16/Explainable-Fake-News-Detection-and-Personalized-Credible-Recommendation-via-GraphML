@@ -21,3 +21,6 @@ The [FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet) dataset contains artic
 
 `tweet_ids`: Tweet ids (list separated by tab) of tweets sharing the news
 
+## Methodology
+The baseline model will employ TF-IDF scores with logistic regression on text data for binary classification. To scale this up, XGBoost will be trained on article embeddings or TF-IDF scores. Additionally, LightGCN will be trained on user-article interactions for graph-based recommendations. The novel approach will experiment with DistilBERT for the binary classification task and concatenate BERT embeddings with LightGCN or GraphSAGE embeddings to create a hybrid fake news detection and article recommendation system.
+For explainability, SHAP will be applied to text models, and GNNExplainer to graph-based recommendations.
