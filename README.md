@@ -5,3 +5,19 @@ The proliferation of fake news on critical topics remains a persistent problem o
 The objective is to develop a system that allows users to input the URL of a news article and receive a credibility assessment. The algorithm will (i) classify the article as ’real’ or ’fake’, (ii) provide an explanation for the decision, and (iii) recommend three relevant and safe alternatives, selected based on source reliability, content similarity, and user network popularity. This approach will make fact-checking time-efficient, transparent, and accessible.
 
 *This is a course project for CSE 847 Machine Learning at Michigan State University. The project is ongoing.
+
+## Table of Contents
+1. [Dataset](#dataset)
+2. [Methodology](#methodology)
+
+## Dataset
+The [FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet) dataset contains articles from PolitiFact and GossipCop. Both are fact-checking websites, where PolitiFact focuses on politics, government claims, and public policy, and GossipCop focuses on entertainment industry rumours. The dataset contains the following features:
+
+`id`: unique identifier for each news
+
+`url`: URL of the article from web that published that news 
+
+`title`: title of the news article
+
+`tweet_ids`: Tweet ids (list separated by tab) of tweets sharing the news
+
